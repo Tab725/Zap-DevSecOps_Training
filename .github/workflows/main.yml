@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
  
-      - name: ZAP Baseline Scan
+      - name: ZAP full Scan
         uses: zaproxy/action-baseline@v0.14.0
         with:
           target: 'https://juice-shop.herokuapp.com'
