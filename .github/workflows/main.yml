@@ -25,7 +25,7 @@ jobs:
       - name: ZAP full Scan
         uses: zaproxy/action-baseline@v0.14.0
         with:
-          target: 'https://juice-shop.herokuapp.com'
+          target: 'https://demo.testfire.net/'
           cmd_options: '-I'  # Fail build only on High/Critical — ignore Medium and below
  
       - name: Upload ZAP Report
